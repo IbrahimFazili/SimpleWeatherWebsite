@@ -1,0 +1,45 @@
+body {
+  background: url("http://i.imgur.com/tfXMQwm.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 , h2, h3, span {
+	margin: 0;
+}
+
+h1 {
+	font-size: 8rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+h3 {
+	font-size: 1.4rem;
+}
+
+span {
+	font-size: 5rem;
+	font-weight: 600;
+}
+
+.container {
+	border: 1px black;
+	margin: 0 auto;
+	text-align: center;
+	display: grid;
+	grid-template-rows: 20% 80%;
+	padding: 25px 5px;
+}
+
+.degrees {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+	margin-left: 2rem;
+}
+
+img {
+	width: 80px;
+}
